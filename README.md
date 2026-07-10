@@ -55,24 +55,31 @@ ChiZhen/
 # Windows
 
 1. Установить Python 3.10 или выше
+   
 Скачать с python.org, при установке отметить "Add to PATH"
 
 2. Открыть терминал (cmd или PowerShell) в папке с проектом
+   
 cd C:\путь_к_папке_бота
 
 3. Создать виртуальное окружение
+   
 python -m venv venv
 
 4. Активировать
+   
 venv\Scripts\activate
 
 5. Установить зависимости
+    
 pip install -r requirements.txt
 
 6. Создать и заполнить `.env` токенами
+    
 Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 7. Запустить
+    
 python main.py
 
 # Linux (Ubuntu/Debian Based)
@@ -80,50 +87,65 @@ python main.py
 1. Установить Python 3.10+
 
 sudo apt update
+
 sudo apt install python3 python3-pip python3-venv
 
 2. Перейти в папку проекта
+   
 cd /путь_к_папке_бота
 
 3. Создать виртуальное окружение
+   
 python3 -m venv venv
 
 4. Активировать
+   
 source venv/bin/activate
 
 5. Установить зависимости
+    
 pip install -r requirements.txt
 
 6. Создать и заполнить `.env` токенами
+
 Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 7. Запустить
+    
 python main.py
 
 # macOS
 
 1. Установить Homebrew
+   
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 2. Установить Python
+   
 brew install python
 
 3. Перейти в папку с ботом
+   
 cd /путь_к_папке_бота
 
 4. Создать виртуальное окружение
+   
 python3 -m venv venv
 
 5. Активировать
+    
 source venv/bin/activate
 
 6. Установить зависимости
+    
 pip install -r requirements.txt
 
 7. Создать и заполнить `.env` токенами
+     
 Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 8. Запустить
+    
 python main.py
 
 # Где взять токены?
