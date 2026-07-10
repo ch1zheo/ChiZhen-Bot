@@ -56,7 +56,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 6. Создать и заполнить `.env` токенами
-Cоздайте файл `.env`, скопируйте содержимое `default.env` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
+Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 7. Запустить
 python main.py
@@ -81,7 +81,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 6. Создать и заполнить `.env` токенами
-Cоздайте файл `.env`, скопируйте содержимое `default.env` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
+Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 7. Запустить
 python main.py
@@ -107,7 +107,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 7. Создать и заполнить `.env` токенами
-Cоздайте файл `.env`, скопируйте содержимое `default.env` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
+Cоздайте файл `.env`, скопируйте содержимое `default.env.example` в созданный файл, возьмите свои токены от Groq и @BotFather и заполните в соответствующие поля.
 
 8. Запустить
 python main.py
