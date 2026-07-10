@@ -52,6 +52,8 @@ ChiZhen/
 
 # Установка и запуск
 
+Не забывайте, что перед запуском main.py вы должны активировать окружение в папке с проектом! (venv\Scripts\activate для Windows, source venv/bin/activate для Linux, macOS)
+
 # Windows
 
 1. Установить Python 3.10 или выше
