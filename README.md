@@ -46,6 +46,8 @@ ChiZhen/
 
 ├── requirements.txt         # Необходимые библиотеки
 
+├── LICENSE                  # Лицензия
+
 ├── README.md                # Этот файл
 
 └── .env                     # Файл с токенами
