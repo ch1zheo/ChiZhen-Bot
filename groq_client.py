@@ -1,4 +1,4 @@
-# groq_client.py - Асинхронный клиент для обращения к Groq API
+# groq_client.py - асинхронный клиент для обращения к Groq API
 # (эндпоинт chat/completions, OpenAI-совместимый формат).
 
 # Используется aiohttp для неблокирующих HTTP-запросов, чтобы бот
@@ -89,7 +89,7 @@ async def get_groq_response(history: List[Dict[str, str]], user_name: Optional[s
 
                 elif response.status == 401:
                     logger.error("Groq API: 401 (Неверный API-ключ)")
-                    raise GroqAPIError("Неверный ключ Groq API. Проверьте GROQ_API_KEY в .env.")
+                    raise GroqAPIError("Неверный ключ Groq API. Проверьте GROQ_API_KEY в default.env.example.")
 
                 else:
                     error_text = await response.text()
